@@ -21,6 +21,7 @@ To run the algorithm it is needed to download the denoiser weights and put them 
 
 - For the original DRUNet weights trained on color images proposed in [DPIR](https://ieeexplore.ieee.org/document/9454311) follow this [link](https://huggingface.co/deepinv/drunet/resolve/main/drunet_color.pth?download=true).
 - For the GS DRUNet weights trained on color images proposed in [Gradient step denoiser for convergent plug-and-play](https://arxiv.org/pdf/2110.03220) follow this [link](https://huggingface.co/deepinv/gradientstep/blob/main/GSDRUNet.ckpt).
+- For the GS DRUNet weights trained on SAR gray images follow this [link](https://plmbox.math.cnrs.fr/seafhttp/f/b431fa2ed3514c4fa6cf/?op=view).
 
 
 ## Datasets
