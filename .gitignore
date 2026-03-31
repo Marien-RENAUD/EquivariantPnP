@@ -12,7 +12,6 @@ venv/
 *.gz
 *.npy
 *.pyc
-PnP_restoration/experiments.sh
 PnP_restoration/generate_fig.py
 GS_denoising/logs/*
 *.zip

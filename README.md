@@ -17,3 +17,14 @@ Our code that is based on Pytorch libraries, you need to create a conda environm
 conda env create -f environment.yml
 ```
 
+## Link to Download the Denoiser weights
+To run the algorithm it is needed to download the denoiser weights and put them in the "GS_denoising/ckpts" folder.
+
+- For the original DRUNet weights trained on color images proposed in [DPIR](https://ieeexplore.ieee.org/document/9454311) follow this [link](https://huggingface.co/deepinv/drunet/resolve/main/drunet_color.pth?download=true).
+- For the GS DRUNet weights trained on color images proposed in [Gradient step denoiser for convergent plug-and-play](https://arxiv.org/pdf/2110.03220) follow this [link](https://huggingface.co/deepinv/gradientstep/blob/main/GSDRUNet.ckpt).
+
+
+## Datasets
+The test images are provided in the folder "datasets". The CBSD68 images (and the subsets CBSD10, set4c, set1c) came from the [Berkeley Segmentation Dataset and Benchmark](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/). The SAR images came from the dataset provided by [Emanuele Dalsasso](https://gitlab.telecom-paris.fr/ring/SAR2SAR/-/raw/master/network_weights/SAR2SAR-test.zip).
+
+
