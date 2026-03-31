@@ -17,7 +17,6 @@ from tqdm import tqdm
 from time import time
 from brisque import BRISQUE
 from deepinv.models import DnCNN, DRUNet
-# from bm3d import bm3d
 
 loss_lpips = LPIPS(net='alex', version='0.1')
 brisque = BRISQUE(url=False)
